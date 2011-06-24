@@ -1,0 +1,21 @@
+Folder Changed Trigger for Hudson CI
+(c) 2010 Burc Sade, http://burcsade.com/
+
+Folder Changed Trigger for Hudson CI is released under the MIT license.
+
+Folder Changed Trigger for Hudson CI is a trigger plugin for Hudson CI 
+to check for folder and/or subfolder changes and trigger builds. It is
+meant to be an example for anyone who wants to go deeper into building
+plugins for Hudson CI. If you find it useful and/or have questions 
+you can drop me an email.
+
+burcsade(at)gmail(dot)com
+
+
+Related links:
+
+Hudson CI web site
+http://hudson-ci.org/
+
+Development docs:
+http://blog.burcsade.com/2010/11/29/a-trigger-plugin-for-hudson/

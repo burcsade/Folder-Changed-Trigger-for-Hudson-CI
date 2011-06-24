@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Built-By: bsade
+Created-By: Apache Maven
+Build-Jdk: 1.6.0_21
+Extension-Name: folder-changed-trigger
+Implementation-Title: folder-changed-trigger
+Implementation-Version: 1.0
+Short-Name: folder-changed-trigger
+Long-Name: Folder Changed Trigger
+Url: https://hudson.dev.java.net/plugin/folder-changed-trigger
+Plugin-Version: 1.0
+Hudson-Version: 1.343
+Plugin-Developers: 
+

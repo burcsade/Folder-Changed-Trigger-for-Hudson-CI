@@ -1,0 +1,13 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:entry title="Folder" field="folderToMonitor">
+    <f:textbox name="folderToMonitor" value="${folderToMonitor}"
+        checkUrl="'/fieldCheck?errorText=${h.jsStringEscape(h.encode('%Folder is mandatory.'))}&amp;value='+encode(this.value)"
+        help="/plugin/folder-changed-trigger/help-folderToMonitor.html"/>
+  </f:entry>
+  <f:entry title="Recursive check" field="recursiveCheck">
+    <f:checkbox name="recursiveCheck" checked="${recursiveCheck}" help="/plugin/folder-changed-trigger/help-recursiveCheck.html"/>
+  </f:entry>
+  <f:entry title="Excluded Files" field="excludedFilesExp">
+    <f:textbox name="excludedFilesExp" value="${excludedFilesExp}" help="/plugin/folder-changed-trigger/help-excludedFilesExp.html"/>
+  </f:entry>
+</j:jelly>
